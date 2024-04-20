@@ -4,7 +4,7 @@ db*.sqlite3
 image/*
 fixtures/*
 mcd_lab.png
-media/*
+# media/*
 *.png
 *.txt
 *.pem
