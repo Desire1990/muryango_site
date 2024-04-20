@@ -15,6 +15,8 @@ from django.db import transaction
 class Objectif(models.Model):
 	id=models.SmallAutoField(primary_key=True)
 	name = models.CharField(max_length=50)
+	image = models.ImageField(upload_to="objectif/")
+	bref = models.TextField()
 	objectif = models.TextField()
 
 	def __str__(self):
